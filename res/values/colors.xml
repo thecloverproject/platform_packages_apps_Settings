@@ -298,4 +298,8 @@
 
    <color name="primary_text_disable_only_material_light">@*android:color/primary_text_disable_only_material_light</color>
 
+    <color name="about_phone_pill_bg">#FF1B1B1B</color>
+    <color name="about_phone_pill_text">#FFFFFFFF</color>
+    <color name="about_phone_pill_icon">#33A14A</color>
+
 </resources>

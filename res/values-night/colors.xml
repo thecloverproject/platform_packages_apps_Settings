@@ -99,5 +99,8 @@
 
     <!-- Keyboard a11y input dialog -->
     <color name="input_dialog_slider_progress">@android:color/system_on_primary_container_dark</color>
-</resources>
 
+    <color name="about_phone_pill_bg">#FFF5F5F5</color>
+    <color name="about_phone_pill_text">#FF1B1B1B</color>
+    <color name="about_phone_pill_icon">#79BA82</color>
+</resources>

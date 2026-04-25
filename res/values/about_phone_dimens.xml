@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2026 The Clover Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <dimen name="about_phone_horizontal_margin">24dp</dimen>
+    <dimen name="about_phone_brand_card_padding_top">0dp</dimen>
+    <dimen name="about_phone_brand_card_padding_bottom">16dp</dimen>
+    <dimen name="about_phone_brand_card_height">196dp</dimen>
+    <dimen name="about_phone_brand_card_corner_radius">28dp</dimen>
+    <dimen name="about_phone_brand_logo_width">22dp</dimen>
+    <dimen name="about_phone_brand_logo_height">22dp</dimen>
+    <dimen name="about_phone_brand_logo_spacing">1dp</dimen>
+    <dimen name="about_phone_brand_wordmark_text_size">29sp</dimen>
+    <dimen name="about_phone_brand_content_padding_horizontal">24dp</dimen>
+    <dimen name="about_phone_meta_pills_padding_bottom">28dp</dimen>
+    <dimen name="about_phone_meta_pill_corner_radius">28dp</dimen>
+    <dimen name="about_phone_meta_pill_horizontal_padding">14dp</dimen>
+    <dimen name="about_phone_meta_pill_vertical_padding">12dp</dimen>
+    <dimen name="about_phone_meta_pill_spacing">8dp</dimen>
+    <dimen name="about_phone_meta_pill_icon_size">18dp</dimen>
+    <dimen name="about_phone_meta_pill_icon_spacing">6dp</dimen>
+    <dimen name="about_phone_meta_pill_text_size">16sp</dimen>
+    <dimen name="about_phone_info_cards_padding_bottom">28dp</dimen>
+    <dimen name="about_phone_info_cards_row_spacing">12dp</dimen>
+    <dimen name="about_phone_info_cards_card_spacing">12dp</dimen>
+    <dimen name="about_phone_info_card_height">112dp</dimen>
+    <dimen name="about_phone_info_card_corner_radius">28dp</dimen>
+    <dimen name="about_phone_info_card_content_padding">16dp</dimen>
+    <dimen name="about_phone_info_card_icon_size">24dp</dimen>
+    <dimen name="about_phone_info_card_icon_spacing">10dp</dimen>
+    <dimen name="about_phone_info_card_label_pill_corner_radius">20dp</dimen>
+    <dimen name="about_phone_info_card_label_pill_horizontal_padding">10dp</dimen>
+    <dimen name="about_phone_info_card_label_pill_vertical_padding">7dp</dimen>
+    <dimen name="about_phone_info_card_label_pill_icon_spacing">6dp</dimen>
+    <dimen name="about_phone_info_card_label_text_size">14sp</dimen>
+    <dimen name="about_phone_info_card_title_text_size">19sp</dimen>
+    <dimen name="about_phone_info_card_value_text_size">16sp</dimen>
+    <dimen name="about_phone_info_card_value_spacing">6dp</dimen>
+
+    <dimen name="about_phone_row_padding_outer">10dp</dimen>
+    <dimen name="about_phone_row_padding_inner">2dp</dimen>
+    <dimen name="about_phone_row_card_inset_horizontal">20dp</dimen>
+    <dimen name="about_phone_row_padding_horizontal">40dp</dimen>
+
+</resources>

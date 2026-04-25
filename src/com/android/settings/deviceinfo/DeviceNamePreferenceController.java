@@ -71,6 +71,9 @@ public class DeviceNamePreferenceController extends BasePreferenceController
     public void displayPreference(PreferenceScreen screen) {
         super.displayPreference(screen);
         mPreference = screen.findPreference(getPreferenceKey());
+        if (mPreference == null) {
+            return;
+        }
         final CharSequence deviceName = getSummary();
         mPreference.setSummary(deviceName);
         mPreference.setText(deviceName.toString());
@@ -106,6 +109,10 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         return true;
     }
 
+    public void setPendingDeviceName(@NonNull String deviceName) {
+        mPendingDeviceName = deviceName;
+    }
+
     @Override
     public boolean isTextValid(String deviceName) {
         // BluetoothNameDialogFragment describes BT name filter as a 248 bytes long cap.
@@ -117,9 +124,10 @@ public class DeviceNamePreferenceController extends BasePreferenceController
     public void updateDeviceName(boolean update) {
         if (update && mPendingDeviceName != null) {
             setDeviceName(mPendingDeviceName);
-        } else {
+        } else if (mPreference != null) {
             mPreference.setText(getSummary().toString());
         }
+        mPendingDeviceName = null;
     }
 
     public void setHost(DeviceNamePreferenceHost host) {
@@ -134,7 +142,10 @@ public class DeviceNamePreferenceController extends BasePreferenceController
         setSettingsGlobalDeviceName(deviceName);
         setBluetoothDeviceName(deviceName);
         setTetherSsidName(deviceName);
-        mPreference.setSummary(getSummary());
+        if (mPreference != null) {
+            mPreference.setSummary(getSummary());
+            mPreference.setText(getSummary().toString());
+        }
     }
 
     private void setSettingsGlobalDeviceName(String deviceName) {

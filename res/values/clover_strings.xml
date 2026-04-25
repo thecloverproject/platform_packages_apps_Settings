@@ -29,6 +29,19 @@
     <!-- Clover Maintainer -->
     <string name="clover_maintainer">Maintainer</string>
 
+    <!-- About phone top branding card -->
+    <string name="about_phone_brand_prefix" translatable="false">CL</string>
+    <string name="about_phone_brand_suffix" translatable="false">VER PROJECT</string>
+    <string name="about_phone_clover_version_pill_format">%1$s | v%2$s</string>
+    <string name="about_phone_android_version_pill_format">Android %1$s</string>
+    <string name="about_phone_memory_card_title">Memory</string>
+    <string name="about_phone_device_name_card_title">Device name</string>
+    <string name="about_phone_battery_card_title">Battery</string>
+    <string name="about_phone_resolution_card_title">Resolution</string>
+    <string name="about_phone_memory_card_value_format">%1$s/%2$s</string>
+    <string name="about_phone_resolution_card_value_format">%1$d x %2$d</string>
+    <string name="about_phone_more_device_info_title">More device info</string>
+
     <!-- [CHAR LIMIT=NONE] Device Info screen. Countdown for user taps to enable development settings -->
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {You are now # step away from enabling development settings.}
