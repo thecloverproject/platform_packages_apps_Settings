@@ -400,7 +400,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
                 boolean isFirst, boolean isLast) {
             final TextView titleView = (TextView) holder.findViewById(android.R.id.title);
             if (titleView != null) {
-                titleView.setTypeface(Typeface.create("sans-serif", Typeface.BOLD));
+                titleView.setTypeface(Typeface.create("google-sans-flex", Typeface.BOLD));
                 titleView.setTextSize(TypedValue.COMPLEX_UNIT_PX,
                         titleView.getResources().getDimension(
                                 R.dimen.about_phone_info_card_title_text_size));
@@ -408,7 +408,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
 
             final TextView summaryView = (TextView) holder.findViewById(android.R.id.summary);
             if (summaryView != null) {
-                summaryView.setTypeface(Typeface.create("sans-serif", Typeface.NORMAL));
+                summaryView.setTypeface(Typeface.create("google-sans-flex", Typeface.NORMAL));
                 summaryView.setTextSize(TypedValue.COMPLEX_UNIT_PX,
                         summaryView.getResources().getDimension(
                                 R.dimen.about_phone_info_card_value_text_size));
