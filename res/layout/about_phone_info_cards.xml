@@ -22,8 +22,6 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:paddingStart="@dimen/about_phone_horizontal_margin"
-    android:paddingEnd="@dimen/about_phone_horizontal_margin"
     android:paddingBottom="@dimen/about_phone_info_cards_padding_bottom">
 
     <LinearLayout

@@ -22,8 +22,6 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="horizontal"
-    android:paddingStart="@dimen/about_phone_horizontal_margin"
-    android:paddingEnd="@dimen/about_phone_horizontal_margin"
     android:paddingBottom="@dimen/about_phone_meta_pills_padding_bottom">
 
     <androidx.cardview.widget.CardView

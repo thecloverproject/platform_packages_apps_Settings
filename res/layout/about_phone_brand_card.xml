@@ -20,9 +20,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:paddingStart="@dimen/about_phone_horizontal_margin"
     android:paddingTop="@dimen/about_phone_brand_card_padding_top"
-    android:paddingEnd="@dimen/about_phone_horizontal_margin"
     android:paddingBottom="@dimen/about_phone_brand_card_padding_bottom">
 
     <androidx.cardview.widget.CardView
